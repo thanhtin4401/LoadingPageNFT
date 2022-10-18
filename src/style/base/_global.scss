@@ -1,0 +1,18 @@
+body {
+    font-family: $font;
+    font-weight: 400;
+    background-color: $bg-color;
+}
+
+.container {
+    max-width: 100%;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 64px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0;
+    }
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sticky-nav {
+    @apply bg-white dark:bg-black sm:py-[20px]
+}
+
+.active {
+    @apply bottom-8 opacity-100
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px !important;
+    @apply dark:text-white
+}
+
+.swiper-pagination-bullet {
+	background: #007aff !important;
+}
